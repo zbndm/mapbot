@@ -1,5 +1,5 @@
 const { Telegraf } = require("telegraf");
-const BOT_TOKEN = "5584878083:AAG5QV3IUtFrG_Aks6Lw2GpDivf5H9IwfCI";
+const BOT_TOKEN = "2131165693:AAGCiVtvX8AbsTnwdnseqNH3aiL4DRAFPo4";
 const bot = new Telegraf(BOT_TOKEN);
 const textHelp = `
 /start - Start bot
@@ -7,7 +7,7 @@ const textHelp = `
 /menu - show menu
 `;
 
-const web_link = "https://nastelmah.github.io/telegram-bot/";
+const web_link = "https://zbndm.github.io/mapbot/";
 
 bot.start((ctx) => ctx.reply(`Hi! ${ctx.message.from.first_name} ${textHelp}`));
 bot.help((ctx) => ctx.reply(textHelp));
